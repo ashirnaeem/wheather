@@ -1,0 +1,52 @@
+.searchBar{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 30px;
+    width: 260px;
+   border-radius: none;
+   
+}
+select{
+    border-right-width: 1px;
+    border-bottom-left-radius: 2px;
+    border-top-left-radius: 2px;
+    color: gray;
+    cursor: pointer;
+    outline: none;
+    /* width: 120; */
+}
+
+/* .ant-select.custom-select.ant-select-focused.ant-select-single.ant-select-show-arrow.ant-select-open>.ant-select-selector{
+    width: 120;
+} */
+
+.ant-select.custom-select>.ant-select-selector:hover{
+    border-color:green ;
+    box-shadow: unset;
+}
+.ant-select-focused.custom-select:not(.ant-select-disabled).ant-select:not(.ant-select-customize-input)>.ant-select-selector{
+    border-color: gray;
+    box-shadow: unset;
+}
+.ant-select.custom-select>.ant-select-selector{
+    
+    
+    border-color: gray;
+    box-shadow: unset;
+    border-top-right-radius:unset ;
+    border-bottom-right-radius:unset ;
+}
+ /* option:checked{
+    background-color: gray;
+} */
+/* select option:hover {
+    box-shadow: 0 0 10px 100px black inset;
+} */
+/* select option:hover {
+    background: #FF9500 -webkit-linear-gradient(bottom, #FF9500 0%, #FF9500 100%);
+    color: #fff;
+  } */
+.ant-select-selector.custom-select{
+    border-color: unset;
+}

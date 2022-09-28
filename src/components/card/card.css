@@ -1,0 +1,23 @@
+
+.ant-card.ant-card-bordered{
+    width: 79px;
+    height: 74px;
+    cursor: pointer;
+}
+.ant-card.ant-card-bordered .ant-card-body{
+    padding: 0;
+}
+.card-text{
+    text-align: center;
+}
+.temp-min-max{
+    text-align: center;
+}
+.weather-card-image{
+    display: flex;
+    margin-left:  auto;
+    margin-right: auto;
+    width: 20px;
+    height: 20px;
+    
+}

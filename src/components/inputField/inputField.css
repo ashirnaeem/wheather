@@ -1,0 +1,8 @@
+input{
+    margin-top: 30px;
+    outline: unset;
+    border: 1px solid gray;
+    border-left: none;
+   width: 220px;
+  padding-left: 5px;
+}

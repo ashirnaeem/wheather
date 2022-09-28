@@ -1,0 +1,15 @@
+.searchButton{
+    margin-top: 30px;
+    border-left: none;
+    width: 70px;
+    outline: none;
+    border: 1px solid gray;
+    cursor: pointer;
+    border-bottom-right-radius: 2px;
+    border-top-right-radius: 2px;
+    border-left: none;
+}
+img{
+    width: 10px;
+    height: 10px;
+}
